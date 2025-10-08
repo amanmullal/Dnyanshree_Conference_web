@@ -111,8 +111,8 @@ describe("Navbar Component", () => {
     expect(screen.getByText("Features")).toBeInTheDocument();
     expect(screen.getByText("Services")).toBeInTheDocument();
     expect(screen.getByText("Portfolio")).toBeInTheDocument();
-    expect(screen.getByText("Testimonials")).toBeInTheDocument();
-    expect(screen.getByText("Team")).toBeInTheDocument();
+    // expect(screen.getByText("Testimonials")).toBeInTheDocument();
+    // expect(screen.getByText("Team")).toBeInTheDocument();
     expect(screen.getByText("Contact")).toBeInTheDocument();
   });
 
@@ -134,14 +134,14 @@ describe("Navbar Component", () => {
       "href",
       "#portfolio"
     );
-    expect(screen.getByRole("link", { name: "Testimonials" })).toHaveAttribute(
-      "href",
-      "#testimonials"
-    );
-    expect(screen.getByRole("link", { name: "Team" })).toHaveAttribute(
-      "href",
-      "#team"
-    );
+    // expect(screen.getByRole("link", { name: "Testimonials" })).toHaveAttribute(
+    //   "href",
+    //   "#testimonials"
+    // );
+    // expect(screen.getByRole("link", { name: "Team" })).toHaveAttribute(
+    //   "href",
+    //   "#team"
+    // );
     expect(screen.getByRole("link", { name: "Contact" })).toHaveAttribute(
       "href",
       "#contact"
@@ -163,7 +163,7 @@ describe("Navbar Component", () => {
   it("renders with proper structure", () => {
     renderWithRouter(<Navbar />);
     expect(screen.getByAltText("Magnox Energy Solutions")).toBeInTheDocument();
-    expect(screen.getAllByRole("link")).toHaveLength(8); // 7 nav links + 1 logo link
+    expect(screen.getAllByRole("link")).toHaveLength(6); // 7 nav links + 1 logo link
   });
 
   it("toggles mobile menu when hamburger is clicked", () => {

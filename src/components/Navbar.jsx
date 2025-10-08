@@ -16,8 +16,8 @@ export const Navbar = () => {
     { name: "About", id: "about", type: "section" },
     { name: "Services", id: "services-page", type: "route", path: "/services" },
     { name: "Portfolio", id: "portfolio", type: "section" },
-    { name: "Testimonials", id: "testimonials", type: "section" },
-    { name: "Team", id: "team", type: "section" },
+    // { name: "Testimonials", id: "testimonials", type: "section" },
+    // { name: "Team", id: "team", type: "section" },
     { name: "Contact", id: "contact", type: "section" },
   ];
 
