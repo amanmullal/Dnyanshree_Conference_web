@@ -1,0 +1,10 @@
+/* Add these styles to your existing App.css */
+html,
+body,
+#root {
+ 
+  /* For better text visibility on dark background */
+
+  margin: 0;
+  padding: 0;
+}

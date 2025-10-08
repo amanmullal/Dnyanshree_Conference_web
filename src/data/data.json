@@ -1,0 +1,323 @@
+{
+  "Header": {
+    "title": "Innovative Energy for a Greener Tomorrow!",
+    "paragraph": "From advanced technology to sustainable practices, we provide end-to-end energy solutions that empower growth and protect the planet."
+  },
+  "About": {
+    "paragraph": "Magnox Energy Solutions LLP is dedicated to streamlining renewable energy projects with our extensive industry network and in-depth regulatory knowledge. We pride ourselves on accelerating approval processes, making us a leading choice for businesses requiring fast and reliable regulatory solutions.",
+    "Why": [
+      "Expert Regulatory Navigation & Fast Approvals",
+      "End-to-End EPC Solutions for Transmission Lines",
+      "Specialized Power Evacuation for Solar & Wind Projects",
+      "Comprehensive Grid Integration & Substation Design"
+    ],
+    "Why2": [
+      "5+ Years of Combined Industry Experience",
+      "Proven Track Record in Utility-Scale Projects",
+      "One-Stop Solution for SEM & Open Access Services",
+      "Advanced Control Panel Design & Manufacturing"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "500MW Solar Power Plant - Rajasthan",
+      "largeImage": "https://www.constructionworld.in/assets/uploads/dd65beda31a0ae5cc4735045f6d58613.jpg",
+      "smallImage": "https://www.constructionworld.in/assets/uploads/dd65beda31a0ae5cc4735045f6d58613.jpg"
+    },
+    {
+      "title": "Wind Farm Grid Integration Project",
+      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6t7VbaGmtTm39OmRJFJ0tacezbkSAS739TmgY7T6T3Fe5JKN9wtUV10Tqn81XKE7tww&usqp=CAU",
+      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6t7VbaGmtTm39OmRJFJ0tacezbkSAS739TmgY7T6T3Fe5JKN9wtUV10Tqn81XKE7tww&usqp=CAU"
+    },
+    {
+      "title": "132kV Transmission Line & Substation",
+      "largeImage": "https://www.energetica-india.net/images/articles/9tME0I54DcoNemmmiOeqQBtExcjEzZ2pPfsrI29fS4b8lZz3MyYPfg.jpg",
+      "smallImage": "https://www.energetica-india.net/images/articles/9tME0I54DcoNemmmiOeqQBtExcjEzZ2pPfsrI29fS4b8lZz3MyYPfg.jpg"
+    },
+    {
+      "title": "Industrial Control Panel Manufacturing",
+      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpv6j8lK59Wx_N76IB-5vTPZ1hOGX7eOz6eQ&s",
+      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpv6j8lK59Wx_N76IB-5vTPZ1hOGX7eOz6eQ&s"
+    },
+    {
+      "title": "Hybrid Solar-Wind Power Evacuation",
+      "largeImage": "https://images.livemint.com/img/2022/10/17/600x338/59a0d7bc-4e02-11ed-a3a4-09bdc88d23e1_1666000907930.jpg",
+      "smallImage": "https://images.livemint.com/img/2022/10/17/600x338/59a0d7bc-4e02-11ed-a3a4-09bdc88d23e1_1666000907930.jpg"
+    },
+    {
+      "title": "Special Energy Meter Installation",
+      "largeImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202306/adani-green-energy-150623-mr-image-sixteen_nine.jpg?size=948:533",
+      "smallImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202306/adani-green-energy-150623-mr-image-sixteen_nine.jpg?size=948:533"
+    },
+    {
+      "title": "400kV Grid Connectivity Project",
+      "largeImage": "https://etimg.etb2bimg.com/photo/65032470.cms",
+      "smallImage": "https://etimg.etb2bimg.com/photo/65032470.cms"
+    },
+    {
+      "title": "Open Access Metering Solutions",
+      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRqs0cCE5lZ_TqiERSyS07D3iUfjd6l0XmYg&s",
+      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRqs0cCE5lZ_TqiERSyS07D3iUfjd6l0XmYg&s"
+    },
+    {
+      "title": "EPC Turnkey Electrical Infrastructure",
+      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrk_pEcdqmN4oikX-jvNm3jGeFRZpOM4uIx7SzoLp_ifUE4sL0znB1XCi1cbkVCLfKBY&usqp=CAU",
+      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrk_pEcdqmN4oikX-jvNm3jGeFRZpOM4uIx7SzoLp_ifUE4sL0znB1XCi1cbkVCLfKBY&usqp=CAU"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Consultancy",
+      "text": "Need expert advice on your electrical projects? Look no further. At Green En Solutions, we provide consultancy services for a wide range of projects, from residential house wiring to high-voltage transmission and substations. Our experienced team ensures that every project is carefully planned and executed to meet the highest standards."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Renewable Energy",
+      "text": "Renewable energy is at the heart of what we do. We handle every aspect of renewable energy projects, from initial feasibility studies to final commissioning. We offer a variety of renewable energy solutions, each designed to harness the power of different technologies to meet your specific needs."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Control Panels",
+      "text": "We specialize in control panels, providing everything from design and supply to installation, testing, and commissioning. Our dedicated team also offers ongoing maintenance to ensure your control panels operate efficiently and reliably."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "SEM & OA Services",
+      "text": "Navigating the requirements for Special Energy Meters (SEM) and Open Access (OA) services can be complex, but we're here to help. We provide a seamless, one-stop solution for companies needing SEM and OA services, handling everything from application to approval."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Industrial Electrical Turnkey Projects",
+      "text": "Our expertise extends to comprehensive industrial electrical turnkey projects. We provide end-to-end solutions, ensuring efficiency, safety, and reliability every step of the way."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "EnergySolutions": [
+    {
+      "id": 1,
+      "title": "Solar Energy Solutions",
+      "subtitle": "High-Performance Photovoltaic Systems",
+      "description": "We design and deliver high-performance solar energy systems that make sustainable power accessible to everyone — from rural households to large-scale industries. Our products are built using advanced photovoltaic technology, engineered for efficiency even in low-light conditions.",
+      "products": [
+        "Solar Panels & Modules: High-efficiency mono and polycrystalline panels for all energy needs",
+        "Inverters & Controllers: Smart inverters with real-time monitoring and automatic fault detection",
+        "Battery Storage Systems: Long-lasting lithium and hybrid batteries for uninterrupted power",
+        "Solar Water Heaters & Streetlights: Energy-efficient and weather-resistant products for daily use"
+      ],
+      "benefits": "Reduced carbon footprint, long lifespan, low maintenance, and significant energy savings over time.",
+      "specifications": [
+        "Panel Efficiency: Up to 22.5% conversion rate",
+        "Warranty: 25-year product warranty",
+        "Operating Temperature: -40°C to +85°C",
+        "Certifications: IEC 61215, IEC 61730, CE, TUV"
+      ],
+      "caseStudies": [
+        "Rural Electrification Project: 500 households powered in Maharashtra",
+        "Industrial Installation: 2MW rooftop system for textile factory",
+        "Smart City Initiative: 1000+ solar streetlights deployed"
+      ],
+      "image": "/src/assets/images/energy-solutions/Solar.png",
+      "icon": "☀️",
+      "color": "from-orange-500 to-yellow-500",
+      "bgColor": "bg-orange-50"
+    },
+    {
+      "id": 2,
+      "title": "Wind Energy Systems",
+      "subtitle": "Reliable Wind Power Solutions",
+      "description": "We provide durable and reliable wind turbines that convert natural wind into consistent power. Our wind systems are adaptable for coastal, industrial, and remote areas, ensuring energy access anywhere nature allows.",
+      "products": [
+        "Small & Large Wind Turbines",
+        "Hybrid Solar-Wind Systems",
+        "Power Controllers & Storage Solutions"
+      ],
+      "benefits": "Minimal maintenance, silent operation, zero emissions, and long-term cost efficiency.",
+      "specifications": [
+        "Power Output: 1kW to 100kW capacity range",
+        "Cut-in Speed: 3 m/s wind speed",
+        "Survival Speed: Up to 60 m/s",
+        "Noise Level: <45dB at rated power"
+      ],
+      "caseStudies": [
+        "Coastal Installation: 50kW turbine powering fishing village",
+        "Industrial Hybrid System: Solar-wind combination for factory",
+        "Remote Telecom Tower: Reliable power for connectivity"
+      ],
+      "image": "/src/assets/images/energy-solutions/Wind.jpg",
+      "icon": "💨",
+      "color": "from-blue-500 to-cyan-500",
+      "bgColor": "bg-blue-50"
+    },
+    {
+      "id": 3,
+      "title": "Hydro Energy Equipment",
+      "subtitle": "Clean Hydroelectric Power Systems",
+      "description": "Our hydro solutions leverage flowing water to create clean and dependable electricity. With precision-engineered components and smart control systems, we bring hydropower to even the most challenging terrains.",
+      "products": [
+        "Micro & Mini Hydro Turbines",
+        "Flow Control Valves and Generators",
+        "Water Energy Conversion Systems"
+      ],
+      "benefits": "Continuous energy generation, environmentally friendly, and ideal for off-grid communities and rural electrification.",
+      "specifications": [
+        "Power Range: 5kW to 500kW systems",
+        "Head Range: 3m to 100m water head",
+        "Efficiency: Up to 90% turbine efficiency",
+        "Lifespan: 25+ years operational life"
+      ],
+      "caseStudies": [
+        "Mountain Community: 100kW micro-hydro for 500 homes",
+        "Agricultural Irrigation: Water pumping and power generation",
+        "Eco-Resort: Off-grid luxury powered by stream"
+      ],
+      "image": "/src/assets/images/energy-solutions/Hydro.jpeg",
+      "icon": "💧",
+      "color": "from-teal-500 to-blue-600",
+      "bgColor": "bg-teal-50"
+    },
+    {
+      "id": 4,
+      "title": "Biogas Energy Units",
+      "subtitle": "Organic Waste to Clean Energy Conversion",
+      "description": "Our biogas systems transform organic waste into clean, renewable fuel — turning an environmental challenge into a sustainable opportunity. Designed for both small-scale and commercial applications, these units help reduce landfill waste while generating usable energy.",
+      "products": [
+        "Domestic Biogas Kits: Compact units for households and farms",
+        "Commercial Digesters: Industrial-grade systems for large-scale waste processing",
+        "Waste-to-Energy Plants: Integrated setups for municipalities and agro-industries"
+      ],
+      "benefits": "Reduces methane emissions, provides dual benefits of energy and fertilizer, promotes circular economy models, and supports sustainable agriculture.",
+      "specifications": [
+        "Gas Production: 2-4 m³ per day for domestic units",
+        "Retention Time: 20-30 days optimal",
+        "Temperature Range: 30-40°C for optimal performance",
+        "Feedstock: Kitchen waste, animal dung, agricultural residues"
+      ],
+      "caseStudies": [
+        "Dairy Farm Project: 50% reduction in energy costs",
+        "Municipal Waste Management: 10-ton daily processing capacity",
+        "Agricultural Community: 200+ farmers benefited"
+      ],
+      "image": "/src/assets/images/energy-solutions/Biogas.png",
+      "icon": "🌱",
+      "color": "from-green-500 to-emerald-500",
+      "bgColor": "bg-green-50"
+    },
+    {
+      "id": 5,
+      "title": "Mining Energy Solutions",
+      "subtitle": "Robust Power Systems for Mining Operations",
+      "description": "We provide specialized energy solutions designed for the demanding requirements of mining operations. Our systems deliver reliable, high-capacity power to remote mining sites, ensuring continuous operation of heavy machinery and processing equipment in harsh environments.",
+      "products": [
+        "High-Capacity Generators: Diesel and hybrid generators rated from 500kW to 5MW for continuous mining operations",
+        "Mobile Power Units: Transportable energy systems for exploration and temporary mining sites",
+        "Grid-Tied Systems: Integration with local power grids for cost-effective energy supply",
+        "Backup Power Solutions: Uninterruptible power systems for critical mining equipment and safety systems"
+      ],
+      "benefits": "Reliable power in remote locations, reduced operational costs, enhanced safety systems, scalable solutions for different mining phases, and minimal environmental impact.",
+      "specifications": [
+        "Power Output: 500kW to 5MW capacity range",
+        "Fuel Efficiency: Up to 35% better than standard generators",
+        "Operating Altitude: Up to 4000m above sea level",
+        "Environmental: IP65 rated for dust and water protection"
+      ],
+      "caseStudies": [
+        "Coal Mining Complex: 3MW hybrid system powering extraction equipment",
+        "Gold Mine Operation: Remote power solution for 24/7 processing plant",
+        "Iron Ore Project: Grid integration reducing energy costs by 40%"
+      ],
+      "image": "/src/assets/images/energy-solutions/Mining.jpeg",
+      "icon": "⛏️",
+      "color": "from-gray-600 to-slate-700",
+      "bgColor": "bg-gray-50"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "name": "Team Member 1",
+      "job": "Director"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "name": "Team Member 2",
+      "job": "Senior Engineer"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "name": "Team Member 3",
+      "job": "Project Manager"
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "name": "Team Member 4",
+      "job": "Technical Consultant"
+    }
+  ],
+  "Contact": {
+    "address": "Baner, Pune, Maharashtra, India",
+    "phone": "+91 8419871919",
+    "email": "magnoxenergysolutionsllp@gamil.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Power Evacuation Mastery",
+      "text": "We specialize in efficient power evacuation for Solar and Wind projects, with expertise in Special Energy Metering at both Generation and Plant End."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "EPC Project",
+      "text": "Our robust capabilities extend to transmission line EPC projects, from Generation End to Substation End, including bay design and comprehensive EPC services."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Right-of-Way Expertise",
+      "text": "We're experts at handling the complex process of securing land and permissions needed for energy projects. This makes Green En a reliable choice for managing power evacuation in renewable energy."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Utility-Scale Projects",
+      "text": "From the ground up, we design, build, and manage extensive grid-scale solar, wind, and hybrid projects across India. Our projects provide renewable energy to both state and central government utilities under long-term contracts, offering up to 25 years of stability and reliability."
+    }
+  ]
+}
