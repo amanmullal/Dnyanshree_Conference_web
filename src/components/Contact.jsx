@@ -57,8 +57,6 @@ export const Contact = (props) => {
     setSubmitStatus(null);
 
     try {
-      console.log("Sending email via EmailJS...");
-
       const templateParams = {
         name: name,
         email: email,
@@ -76,12 +74,10 @@ export const Contact = (props) => {
         emailConfig.publicKey
       );
 
-      console.log("Email sent successfully:", result);
       setSubmitStatus("success");
       clearState();
       setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
-      console.error("Email submission failed:", error);
 
       // Handle specific EmailJS errors
       if (error.text?.includes("insufficient authentication scopes")) {

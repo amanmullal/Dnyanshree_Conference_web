@@ -15,8 +15,6 @@ export const Gallery = (props) => {
   // Enhanced gallery data with categories and effects
   const galleryData = props.data
     ? props.data.map((item, index) => {
-        // Use the actual image URLs from data.json instead of generating local paths
-        console.log(`Gallery item ${index + 1}: ${item.smallImage}`);
 
         return {
           ...item,
@@ -154,15 +152,9 @@ export const Gallery = (props) => {
                     alt={image.title}
                     className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                     onLoad={(e) => {
-                      console.log(
-                        `Image successfully rendered: ${image.smallImage}`
-                      );
                       e.target.style.opacity = "1";
                     }}
                     onError={(e) => {
-                      console.error(
-                        `Image failed to load: ${image.smallImage}`
-                      );
                       e.target.style.display = "none";
                     }}
                     style={{ opacity: 1 }}
@@ -288,15 +280,7 @@ export const Gallery = (props) => {
                       src={selectedImage.largeImage}
                       alt={selectedImage.title}
                       className="w-full h-full object-cover"
-                      onLoad={() =>
-                        console.log(
-                          `Lightbox image loaded: ${selectedImage.largeImage}`
-                        )
-                      }
                       onError={(e) => {
-                        console.error(
-                          `Lightbox image failed: ${selectedImage.largeImage}`
-                        );
                         // Fallback to small image if large image fails
                         e.target.src = selectedImage.smallImage;
                       }}

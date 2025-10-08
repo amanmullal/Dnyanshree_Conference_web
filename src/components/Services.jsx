@@ -22,9 +22,6 @@ export const Services = (props) => {
   const isScrollingRef = useRef(false);
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
-  // Debug: Log the data to see what's being passed
-  console.log("Services data:", props.data);
-
   const scrollToCard = (index) => {
     if (scrollContainerRef.current && !isScrollingRef.current) {
       isScrollingRef.current = true;

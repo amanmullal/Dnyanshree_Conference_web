@@ -226,10 +226,6 @@ describe("Contact Component", () => {
 
     fireEvent.click(submitButton);
 
-    await waitFor(() => {
-      expect(console.log).toHaveBeenCalledWith("Sending email via EmailJS...");
-    });
-
     // Wait for success message
     await waitFor(() => {
       expect(
