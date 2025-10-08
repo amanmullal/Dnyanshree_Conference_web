@@ -11,6 +11,7 @@ import {
   Award,
 } from "lucide-react";
 import EnergyShowcase from "../components/EnergyShowcase";
+import servicesBanner from "../assets/images/energy-solutions/services_banner.png";
 
 const ServicesPage = () => {
   // Scroll to top when component mounts
@@ -26,7 +27,7 @@ const ServicesPage = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/src/assets/images/energy-solutions/services_banner.png')`,
+            backgroundImage: `url(${servicesBanner})`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
