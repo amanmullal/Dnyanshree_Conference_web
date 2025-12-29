@@ -2,7 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { CheckCircle, ArrowRight } from "lucide-react";
-import bgImage from "../assets/bg-img2.webp";
+import bgImage from "../assets/dnyanshree_college2.png";
+import pride from "../assets/dnyanshree_pride.jpg";
 
 export const About = (props) => {
   const [ref, inView] = useInView({
@@ -84,52 +85,99 @@ export const About = (props) => {
 
       <div className="container-custom relative z-20">
         <motion.div
-          className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start"
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
           {/* Image Section */}
-          <motion.div className="relative" variants={leftVariants}>
-            <div className="relative">
-              {/* Main image */}
-              <motion.div
-                className="relative overflow-hidden rounded-3xl shadow-2xl"
-                whileHover={{ scale: 1.02 }}
-                transition={{ duration: 0.4 }}
-              >
-                <img
-                  src={bgImage}
-                  className="w-full h-auto object-cover"
-                  alt="About Magnox Energy Solutions"
-                />
-                {/* Image overlay */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent"></div>
-              </motion.div>
 
-              {/* Floating card */}
-              <motion.div
-                className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
-                animate={{ y: [0, -10, 0] }}
-                transition={{
-                  duration: 4,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-                whileHover={{ scale: 1.05 }}
-              >
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary-600 mb-1">
-                    5+
+          <div className="flex flex-col  gap-20">
+            <motion.div className="relative " variants={leftVariants}>
+              <div className="relative">
+                {/* Main image */}
+                <motion.div
+                  className="relative overflow-hidden rounded-3xl shadow-2xl"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <img
+                    src={bgImage}
+                    className="w-full h-auto object-cover"
+                    alt="About Magnox Energy Solutions"
+                  />
+                  {/* Image overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent"></div>
+                </motion.div>
+
+                {/* Floating card */}
+                <motion.div
+                  className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-600 mb-1">
+                      NAAC
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      Accredited Institute
+                    </div>
                   </div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
-                </div>
-              </motion.div>
+                </motion.div>
 
-              {/* Decorative elements */}
-              <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
-            </div>
-          </motion.div>
+                {/* Decorative elements */}
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
+              </div>
+            </motion.div>
+            <motion.div className="relative" variants={leftVariants}>
+              <div className="relative">
+                {/* Main image */}
+                <motion.div
+                  className="relative overflow-hidden rounded-3xl shadow-2xl"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <img
+                    src={pride}
+                    className="w-full h-auto object-cover"
+                    alt="About Magnox Energy Solutions"
+                  />
+                  {/* Image overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent"></div>
+                </motion.div>
+
+                {/* Floating card */}
+                <motion.div
+                  className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-600 mb-1">
+                      5+
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      Years Experience
+                    </div>
+                  </div>
+                </motion.div>
+
+                {/* Decorative elements */}
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
+              </div>
+            </motion.div>
+          </div>
 
           {/* Content Section */}
           <motion.div className="space-y-8" variants={rightVariants}>
@@ -142,7 +190,7 @@ export const About = (props) => {
               </motion.h2>
 
               <motion.p
-                className="text-xl text-gray-600 leading-relaxed mb-8"
+                className="text-xl text-gray-600 leading-relaxed mb-8 text-justify"
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ delay: 0.6, duration: 0.8 }}
@@ -157,41 +205,39 @@ export const About = (props) => {
               transition={{ delay: 0.8, duration: 0.8 }}
             >
               <h3 className="text-3xl font-bold text-gray-800 mb-8 flex items-center">
-                Why Choose Us?
+                Conference Objectives
                 <ArrowRight className="ml-3 w-8 h-8 text-primary-500" />
               </h3>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {/* Left column */}
-                <motion.div
-                  variants={listVariants}
-                  initial="hidden"
-                  animate={inView ? "visible" : "hidden"}
-                >
-                  {props.data?.Why ? (
-                    props.data.Why.map((item, index) => (
-                      <motion.div
-                        key={`why-${index}`}
-                        variants={itemVariants}
-                        className="flex items-start space-x-3 mb-4 group"
-                        whileHover={{ x: 5 }}
-                        transition={{ type: "spring", stiffness: 300 }}
-                      >
-                        <CheckCircle className="w-6 h-6 text-primary-500 mt-0.5 group-hover:text-accent-500 transition-colors duration-300" />
-                        <span className="text-gray-700 leading-relaxed group-hover:text-gray-900 transition-colors duration-300">
-                          {item}
-                        </span>
-                      </motion.div>
-                    ))
-                  ) : (
-                    <div className="animate-pulse text-gray-500">
-                      Loading benefits...
-                    </div>
-                  )}
-                </motion.div>
+              <motion.div
+                variants={listVariants}
+                initial="hidden"
+                animate={inView ? "visible" : "hidden"}
+              >
+                {props.data?.Why ? (
+                  props.data.Why.map((item, index) => (
+                    <motion.div
+                      key={`why-${index}`}
+                      variants={itemVariants}
+                      className="flex items-start space-x-3 mb-4 group"
+                      whileHover={{ x: 5 }}
+                      transition={{ type: "spring", stiffness: 300 }}
+                    >
+                      <CheckCircle className="w-6 h-6 text-primary-500 mt-0.5 group-hover:text-accent-500 transition-colors duration-300" />
+                      <span className="text-gray-700 leading-relaxed group-hover:text-gray-900 transition-colors duration-300">
+                        {item}
+                      </span>
+                    </motion.div>
+                  ))
+                ) : (
+                  <div className="animate-pulse text-gray-500">
+                    Loading benefits...
+                  </div>
+                )}
+              </motion.div>
 
-                {/* Right column */}
-                <motion.div
+              {/* Right column */}
+              {/* <motion.div
                   variants={listVariants}
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
@@ -216,8 +262,7 @@ export const About = (props) => {
                       Loading more benefits...
                     </div>
                   )}
-                </motion.div>
-              </div>
+                </motion.div> */}
             </motion.div>
 
             {/* CTA Button */}

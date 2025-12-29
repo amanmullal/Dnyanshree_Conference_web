@@ -1,33 +1,37 @@
 {
   "Header": {
-    "title": "Innovative Energy for a Greener Tomorrow!",
-    "paragraph": "From advanced technology to sustainable practices, we provide end-to-end energy solutions that empower growth and protect the planet."
-  },
+  "section": "The First National Conference",
+  "title": "Engineering the Future: Sustainable Design, Innovation and Global Goals (ETF-SDIGG 2026)",
+  "date":"April 28, 2026 | DIET Campus, Satara, Maharashtra",
+  "organisedBy":"Organised by",
+  "paragraph": "Raosaheb Wangde Master Charitable Trust’s",
+  "collegeName" :"Dnyanshree Institute of Engineering and Technology, Satara, Maharashtra"
+},
   "About": {
-    "paragraph": "Magnox Energy Solutions LLP is dedicated to streamlining renewable energy projects with our extensive industry network and in-depth regulatory knowledge. We pride ourselves on accelerating approval processes, making us a leading choice for businesses requiring fast and reliable regulatory solutions.",
+    "paragraph": "The conference “Engineering the Future: Sustainable Design, Innovation and Global Goals” brings together students, researchers, and faculty to share innovative ideas for sustainable development. It highlights emerging technologies such as AI/ML, IoT, green energy, waste management, automation, and advanced materials to promote resource efficiency, reduce carbon emissions, and support sustainable practices in industry and agriculture.",
     "Why": [
-      "Expert Regulatory Navigation & Fast Approvals",
-      "End-to-End EPC Solutions for Transmission Lines",
-      "Specialized Power Evacuation for Solar & Wind Projects",
-      "Comprehensive Grid Integration & Substation Design"
+      "To provide a collaborative platform for engineering and science students, researchers, and faculty to present and discuss innovative design ideas addressing sustainable development goals.",
+      "To promote interdisciplinary research and innovation by integrating Artificial Intelligence, Machine Learning, IoT, embedded systems, and other emerging technologies forsustainable industrial and agricultural solutions.",
+      "To encourage the development of sustainable technologies that enhance resource efficiency, reduce carbon emissions, and improve waste management practices.",
+      "To foster local and global partnerships and knowledge exchange among academia, industry and research communities to achieve a sustainable, technology-driven future."
     ],
     "Why2": [
-      "5+ Years of Combined Industry Experience",
-      "Proven Track Record in Utility-Scale Projects",
-      "One-Stop Solution for SEM & Open Access Services",
-      "Advanced Control Panel Design & Manufacturing"
+      "Enhances academic profile and research visibility",
+      "Encourages interdisciplinary learning and collaboration",
+      "Supports skill development in research, presentation, and technical writing",
+      "Inspires practical solutions for real-world sustainability challenges"
     ]
   },
   "Gallery": [
     {
-      "title": "500MW Solar Power Plant - Rajasthan",
-      "largeImage": "https://www.constructionworld.in/assets/uploads/dd65beda31a0ae5cc4735045f6d58613.jpg",
-      "smallImage": "https://www.constructionworld.in/assets/uploads/dd65beda31a0ae5cc4735045f6d58613.jpg"
+      "title": "Super Antiques",
+      "largeImage": "/src/assets/images/energy-solutions/SuperAntiques.jpg",
+      "smallImage": "/src/assets/images/energy-solutions/SuperAntiques.jpg"
     },
     {
-      "title": "Wind Farm Grid Integration Project",
-      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6t7VbaGmtTm39OmRJFJ0tacezbkSAS739TmgY7T6T3Fe5JKN9wtUV10Tqn81XKE7tww&usqp=CAU",
-      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_6t7VbaGmtTm39OmRJFJ0tacezbkSAS739TmgY7T6T3Fe5JKN9wtUV10Tqn81XKE7tww&usqp=CAU"
+      "title": "Bauxite Energy",
+      "largeImage": "/src/assets/images/energy-solutions/Boxside.jpg",
+       "smallImage": "/src/assets/images/energy-solutions/Boxside.jpg"
     },
     {
       "title": "132kV Transmission Line & Substation",
@@ -40,63 +44,109 @@
       "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpv6j8lK59Wx_N76IB-5vTPZ1hOGX7eOz6eQ&s"
     },
     {
-      "title": "Hybrid Solar-Wind Power Evacuation",
-      "largeImage": "https://images.livemint.com/img/2022/10/17/600x338/59a0d7bc-4e02-11ed-a3a4-09bdc88d23e1_1666000907930.jpg",
-      "smallImage": "https://images.livemint.com/img/2022/10/17/600x338/59a0d7bc-4e02-11ed-a3a4-09bdc88d23e1_1666000907930.jpg"
+      "title": "Radiographic Inspection",
+      "largeImage": "https://5.imimg.com/data5/RF/CO/MY-7751515/radiography-testing-500x500.png",
+      "smallImage": "https://5.imimg.com/data5/RF/CO/MY-7751515/radiography-testing-500x500.png"
     },
     {
-      "title": "Special Energy Meter Installation",
-      "largeImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202306/adani-green-energy-150623-mr-image-sixteen_nine.jpg?size=948:533",
-      "smallImage": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202306/adani-green-energy-150623-mr-image-sixteen_nine.jpg?size=948:533"
+      "title": "Ultrasonic Inspection",
+      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ne3n7apocv5_fLKpi4Zgost_PvxzKtmo9Q&s",
+      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ne3n7apocv5_fLKpi4Zgost_PvxzKtmo9Q&s"
     },
     {
-      "title": "400kV Grid Connectivity Project",
-      "largeImage": "https://etimg.etb2bimg.com/photo/65032470.cms",
-      "smallImage": "https://etimg.etb2bimg.com/photo/65032470.cms"
+      "title": "Precious Stones",
+      "largeImage": "/src/assets/images/energy-solutions/PreciousStones.jpg",
+      "smallImage": "/src/assets/images/energy-solutions/PreciousStones.jpg"
     },
     {
       "title": "Open Access Metering Solutions",
-      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRqs0cCE5lZ_TqiERSyS07D3iUfjd6l0XmYg&s",
-      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRqs0cCE5lZ_TqiERSyS07D3iUfjd6l0XmYg&s"
+      "largeImage": "https://germaniametals.com/wp-content/uploads/2024/03/industrial-plant-at-night.jpg",
+      "smallImage": "https://germaniametals.com/wp-content/uploads/2024/03/industrial-plant-at-night.jpg"
     },
     {
       "title": "EPC Turnkey Electrical Infrastructure",
-      "largeImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrk_pEcdqmN4oikX-jvNm3jGeFRZpOM4uIx7SzoLp_ifUE4sL0znB1XCi1cbkVCLfKBY&usqp=CAU",
-      "smallImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrk_pEcdqmN4oikX-jvNm3jGeFRZpOM4uIx7SzoLp_ifUE4sL0znB1XCi1cbkVCLfKBY&usqp=CAU"
+      "largeImage": "https://germaniametals.com/wp-content/uploads/2024/03/0136264_iron-ore-prices-expected-to-fluctuate-1536x1024.jpeg",
+      "smallImage": "https://germaniametals.com/wp-content/uploads/2024/03/0136264_iron-ore-prices-expected-to-fluctuate-1536x1024.jpeg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Consultancy",
-      "text": "Need expert advice on your electrical projects? Look no further. At Green En Solutions, we provide consultancy services for a wide range of projects, from residential house wiring to high-voltage transmission and substations. Our experienced team ensures that every project is carefully planned and executed to meet the highest standards."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Renewable Energy",
-      "text": "Renewable energy is at the heart of what we do. We handle every aspect of renewable energy projects, from initial feasibility studies to final commissioning. We offer a variety of renewable energy solutions, each designed to harness the power of different technologies to meet your specific needs."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Control Panels",
-      "text": "We specialize in control panels, providing everything from design and supply to installation, testing, and commissioning. Our dedicated team also offers ongoing maintenance to ensure your control panels operate efficiently and reliably."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "SEM & OA Services",
-      "text": "Navigating the requirements for Special Energy Meters (SEM) and Open Access (OA) services can be complex, but we're here to help. We provide a seamless, one-stop solution for companies needing SEM and OA services, handling everything from application to approval."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Industrial Electrical Turnkey Projects",
-      "text": "Our expertise extends to comprehensive industrial electrical turnkey projects. We provide end-to-end solutions, ensuring efficiency, safety, and reliability every step of the way."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
+"Services": [
+  {
+    "icon": "fa fa-wordpress",
+    "name": "Consultancy",
+    "text": "Need expert advice on your electrical projects? Look no further. At Green En Solutions, we provide consultancy services for a wide range of projects, from residential house wiring to high-voltage transmission and substations. Our experienced team ensures that every project is carefully planned and executed to meet the highest standards."
+  },
+  {
+    "icon": "fa fa-cart-arrow-down",
+    "name": "Renewable Energy",
+    "text": "Renewable energy is at the heart of what we do. We handle every aspect of renewable energy projects, from initial feasibility studies to final commissioning. We offer a variety of renewable energy solutions, each designed to harness the power of different technologies to meet your specific needs."
+  },
+  {
+    "icon": "fa fa-cloud-download",
+    "name": "Control Panels",
+    "text": "We specialize in control panels, providing everything from design and supply to installation, testing, and commissioning. Our dedicated team also offers ongoing maintenance to ensure your control panels operate efficiently and reliably."
+  },
+  {
+    "icon": "fa fa-language",
+    "name": "SEM & OA Services",
+    "text": "Navigating the requirements for Special Energy Meters (SEM) and Open Access (OA) services can be complex, but we're here to help. We provide a seamless, one-stop solution for companies needing SEM and OA services, handling everything from application to approval."
+  },
+  {
+    "icon": "fa fa-plane",
+    "name": "Industrial Electrical Turnkey Projects",
+    "text": "Our expertise extends to comprehensive industrial electrical turnkey projects. We provide end-to-end solutions, ensuring efficiency, safety, and reliability every step of the way."
+  },
+  {
+    "icon": "fa fa-pie-chart",
+    "name": "Consectetur adipiscing",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+  },
+  {
+    "icon": "fa fa-university",
+    "name": "Super Antiques",
+    "text": "We deal in rare Super Antiques and Precious Metals known for their timeless design, aesthetic beauty, and unique craftsmanship. Our collection includes ancient artifacts, handcrafted vessels, and precious metal masterpieces that hold cultural and historical value."
+  },
+  {
+    "icon": "fa fa-diamond",
+    "name": "Precious Stones",
+    "text": "Explore our exclusive range of precious stones including Diamonds, Rubies, Sapphires, Emeralds, Catseyes, and Alexandrite. Each gemstone carries unique brilliance, clarity, and symbolic meaning, making them perfect for personal collections and investment."
+  },
+  {
+    "icon": "fa fa-industry",
+    "name": "Mining Energy Solutions",
+    "text": "We deliver high-capacity and reliable power solutions for mining operations, ensuring continuous performance in remote and demanding environments."
+  },
+  {
+    "icon": "fa fa-ship",
+    "name": "Iron Ore Trading",
+    "text": "We connect global suppliers and buyers for seamless iron ore trading, offering quality grading, logistics support, and transparent documentation."
+  },
+  {
+    "icon": "fa fa-cubes",
+    "name": "Boxside Energy",
+    "text": "We provide sustainable and energy-efficient solutions for bauxite mining and processing, enabling cost-effective and eco-friendly operations."
+  },
+  {
+    "icon": "fa fa-search",
+    "name": "Radiographic Inspection",
+    "text": "Advanced industrial radiography services for welds, pipelines, pressure vessels, and structures, ensuring internal defect detection with high precision."
+  },
+  {
+    "icon": "fa fa-atom",
+    "name": "Advanced Modular Reactor",
+    "text": "Next-generation compact nuclear reactors with modular deployment, passive safety systems, and efficient cooling technologies for safer nuclear energy."
+  },
+  {
+    "icon": "fa fa-exclamation-triangle",
+    "name": "Chernobyl",
+    "text": "Case study and analysis of the Chernobyl nuclear accident to understand reactor failures, radiation impact, and global safety improvements."
+  },
+  {
+    "icon": "fa fa-Sliders",
+    "name": "Control Rods",
+    "text": "Specialized neutron-absorbing control rods for regulating nuclear fission, ensuring stable operation and preventing reactor overheating."
+  }
+],
+
   "EnergySolutions": [
     {
       "id": 1,
@@ -234,7 +284,241 @@
       "icon": "⛏️",
       "color": "from-gray-600 to-slate-700",
       "bgColor": "bg-gray-50"
-    }
+    },
+     {
+    "id": 6,
+    "title": "Iron Ore Trading",
+    "subtitle": "Unlocking Value, Building Partnerships",
+    "description": "Your trusted gateway to the global trade of minerals and metals. We connect suppliers and buyers across the world, ensuring transparent, efficient, and reliable ore trading operations.",
+    "products": [
+      "Iron Ore Fines, Lumps & Pellets",
+      "Logistics & Port Handling Support",
+      "Quality Testing & Grading Services",
+      "Global Shipment & Documentation Assistance"
+    ],
+    "benefits": "Trusted sourcing, transparent pricing, quality assurance, and strong global partnerships.",
+    "specifications": [
+      "Fe Content: 52% to 67%",
+      "Moisture: 2%–10%",
+      "Supply Capacity: 50,000–500,000 MT/month"
+    ],
+    "caseStudies": [
+      "Export Partnership With Steel Plants",
+      "End-to-End Logistics for Mineral Buyers"
+    ],
+    "image": "/src/assets/images/energy-solutions/IronOre.jpg",
+    "icon": "🪨",
+    "color": "from-red-600 to-orange-700",
+    "bgColor": "bg-red-50"
+  },
+
+  {
+    "id": 7,
+    "title": "Boxside Energy",
+    "subtitle": "Integrated Bauxite Resource & Energy Solutions",
+    "description": "We provide energy-efficient systems for bauxite mining and processing, ensuring sustainable and cost-effective operations.",
+    "products": [
+      "Bauxite Ore Supply Chain Management",
+      "Energy Solutions for Alumina Processing",
+      "Mining Power Generation Systems"
+    ],
+    "benefits": "Lower energy costs, sustainable mining operations, enhanced productivity.",
+    "specifications": [
+      "Grade: Metallurgical-grade bauxite",
+      "Supply Capacity: 20,000–300,000 MT/month"
+    ],
+    "caseStudies": [
+      "Energy-Efficient Bauxite Mining Project",
+      "Sustainable Processing Plant Upgrade"
+    ],
+    "image": "/src/assets/images/energy-solutions/Boxside.jpg",
+    "icon": "🧱",
+    "color": "from-amber-600 to-yellow-700",
+    "bgColor": "bg-amber-50"
+  },
+
+  {
+    "id": 8,
+    "title": "Radiographic Inspection",
+    "subtitle": "High-Precision X-ray Industrial Testing",
+    "description": "We offer advanced radiographic testing services to detect internal defects in materials and welded structures with high accuracy.",
+    "products": [
+      "X-Ray Testing for Welds",
+      "Digital RT Inspection",
+      "Industrial Film Radiography"
+    ],
+    "benefits": "High defect visibility, precise imaging, reliable internal inspection.",
+    "specifications": [
+      "Standards: ISO 17636, ASME V",
+      "Detection: Cracks, porosity, corrosion"
+    ],
+    "caseStudies": [
+      "Pipeline Weld Quality Verification",
+      "Pressure Vessel Inspection"
+    ],
+    "image": "/src/assets/images/energy-solutions/Radiography.jpg",
+    "icon": "🔎",
+    "color": "from-gray-700 to-gray-900",
+    "bgColor": "bg-gray-100"
+  },
+
+  {
+    "id": 9,
+    "title": "Ultrasonic Inspection",
+    "subtitle": "Advanced Non-Destructive Testing (NDT)",
+    "description": "Our ultrasonic inspection systems detect subsurface flaws using high-frequency sound waves for precise, non-destructive evaluation.",
+    "products": [
+      "Ultrasonic Weld Testing",
+      "Thickness Measurement",
+      "Phased Array Ultrasonic Testing (PAUT)"
+    ],
+    "benefits": "Accurate subsurface detection, fast testing, reliable NDT results.",
+    "specifications": [
+      "Frequency Range: 0.5–10 MHz",
+      "Standards: ISO 11666, ASME V",
+      "Applications: Oil & gas, power plants, fabrication units"
+    ],
+    "caseStudies": [
+      "Tank Roof & Bottom UT Testing",
+      "Structural Steel Integrity Analysis"
+    ],
+    "image": "/src/assets/images/energy-solutions/Ultrasonic.jpg",
+    "icon": "📡",
+    "color": "from-indigo-600 to-purple-700",
+    "bgColor": "bg-indigo-50"
+  },
+  {
+  "id": 10,
+  "title": "Advanced Modular Reactor",
+  "subtitle": "Next-Generation Nuclear Reactor",
+  "description": "Compact and scalable reactors designed for safer and more efficient nuclear energy production.",
+  "products": [
+    "Modular reactor units",
+    "Passive safety systems",
+    "Integrated cooling solutions"
+  ],
+  "benefits": "Safer nuclear energy, modular deployment, reduced construction time.",
+  "specifications": [
+    "Power Output: 50MW–300MW",
+    "Coolant Type: Liquid metal / water",
+    "Safety Features: Passive cooling, automatic shutdown"
+  ],
+  "caseStudies": [
+    "Pilot reactor installation in remote locations",
+    "Industrial-scale modular deployment"
+  ],
+  "image": "/src/assets/images/energy-solutions/AMR.jpg",
+  "icon": "⚛️",
+  "color": "from-purple-600 to-indigo-700",
+  "bgColor": "bg-purple-50"
+},
+{
+  "id": 11,
+  "title": "Chernobyl",
+  "subtitle": "Nuclear Accident Case Study",
+  "description": "Analysis of the Chernobyl disaster to understand reactor failures and nuclear safety lessons.",
+  "products": [
+    "Disaster impact studies",
+    "Radiation analysis",
+    "Containment & remediation studies"
+  ],
+  "benefits": "Enhanced nuclear safety protocols and awareness of operational risks.",
+  "specifications": [
+    "Reactor Type: RBMK",
+    "Incident Date: April 26, 1986",
+    "Lessons Learned: Reactor safety and emergency protocols"
+  ],
+  "caseStudies": [
+    "Chernobyl exclusion zone studies",
+    "International safety standards derived from Chernobyl"
+  ],
+  "image": "/src/assets/images/energy-solutions/Chernobyl.jpg",
+  "icon": "☢️",
+  "color": "from-yellow-500 to-orange-600",
+  "bgColor": "bg-yellow-50"
+},
+{
+  "id": 12,
+  "title": "Control Rods",
+  "subtitle": "Neutron Absorption in Reactors",
+  "description": "Control Rods absorb neutrons in the reactor to regulate the nuclear fission process and maintain safety.",
+  "products": [
+    "Boron carbide rods",
+    "Silver-indium-cadmium rods",
+    "Automated insertion systems"
+  ],
+  "benefits": "Prevents reactor overheating, enables controlled fission, ensures safe operation.",
+  "specifications": [
+    "Material: Boron, Cadmium, or Hafnium",
+    "Insertion Mechanism: Manual or automatic",
+    "Function: Neutron absorption"
+  ],
+  "caseStudies": [
+    "Reactor safety drills using control rods",
+    "Fission rate regulation in test reactors"
+  ],
+  "image": "/src/assets/images/energy-solutions/ControlRods.jpg",
+  "icon": "🟩",
+  "color": "from-green-600 to-green-800",
+  "bgColor": "bg-green-50"
+},{
+  "id": 13,
+  "title": "Super Antiques",
+  "subtitle": "Rare Masterpieces & Precious Metals",
+  "description": "Acquire Super Antiques & Precious Metals that are known for their aesthetic value, workability, and timeless design. These masterpieces are crafted with the highest quality and valued for their unique characteristics. Precious metals are naturally occurring metallic elements appreciated for their rarity and craftsmanship.",
+  "products": [
+    "Ancient Artifacts & Sculptures",
+    "Precious Metal Masterpieces",
+    "Handcrafted Antique Vessels",
+    "Cultural & Heritage Collectibles"
+  ],
+  "benefits": "High collectible value, unique craftsmanship, cultural significance, long-term asset appreciation.",
+  "specifications": [
+    "Material Types: Bronze, Copper, Gold, Silver",
+    "Age Range: 50–500+ years",
+    "Authenticity: Certified heritage evaluation",
+    "Craftsmanship: Traditional handworked detailing"
+  ],
+  "caseStudies": [
+    "Restoration of 200-year-old metal artifacts",
+    "Heritage antique auction feature",
+    "Private collection acquisitions"
+  ],
+  "image": "/src/assets/images/energy-solutions/SuperAntiques.jpg",
+  "icon": "🏺",
+  "color": "from-yellow-700 to-amber-600",
+  "bgColor": "bg-amber-50"
+},
+{
+  "id": 14,
+  "title": "Precious Stones",
+  "subtitle": "Rare Gems With Timeless Value",
+  "description": "Each mineral stone — from Diamonds, Rubies, Sapphires, Emeralds, Catseyes to Alexandrite — carries its own story, symbolism, and brilliance. Gemstones are valued based on color, clarity, brilliance, and perfection, making each one a unique masterpiece of nature.",
+  "products": [
+    "Diamond Collection",
+    "Ruby, Sapphire & Emerald Stones",
+    "Catseye & Alexandrite Gems",
+    "Customized Gemstone Cuts & Shapes"
+  ],
+  "benefits": "High brilliance, durable natural stones, valuable long-term assets, symbolic and aesthetic appeal.",
+  "specifications": [
+    "Clarity Grades: VVS1 to SI2",
+    "Cuts: Round, Oval, Emerald, Princess",
+    "Certification: GIA / IGI Certified Stones",
+    "Color Range: D–Z color spectrum (diamonds)"
+  ],
+  "caseStudies": [
+    "Custom gemstone jewelry design",
+    "Investment-grade gemstone sourcing",
+    "Heritage gemstone valuation"
+  ],
+  "image": "/src/assets/images/energy-solutions/PreciousStones.jpg",
+  "icon": "💎",
+  "color": "from-blue-600 to-teal-600",
+  "bgColor": "bg-blue-50"
+}
+
+
   ],
   "Testimonials": [
     {
@@ -268,28 +552,70 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
-      "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "name": "Team Member 1",
-      "job": "Director"
-    },
-    {
-      "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "name": "Team Member 2",
-      "job": "Senior Engineer"
-    },
-    {
-      "img": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "name": "Team Member 3",
-      "job": "Project Manager"
-    },
-    {
-      "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      "name": "Team Member 4",
-      "job": "Technical Consultant"
-    }
-  ],
+
+  "Team": {
+    "Chief_Patron": [
+      {
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Hon. Mr. Dnyaneshwar B. Wangde (Bhai)",
+        "job": "Chief Patron",
+        "linkedin": "linkedin.com/in/dr-sajeed-mulla-945b452a",
+        "description": "(Chairman, RWMCT, Satara.)"
+      }
+    ],
+
+    "Patron": [
+      {
+        "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Hon. Mr. Rohit D. Wangde",
+        "job": "Patron",
+        "description": "(Managing Director, DIET, Satara.)"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Hon. Mrs. Dhanwantari R. Wangde",
+        "job": "Patron",
+        "description": "(CEO, DIET, Satara.)"
+      }
+    ],
+
+    "Convenors": [
+      {
+        "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Dr. A. D. Jadhav",
+        "job": "Convenors",
+        "description": "(Principal, DIET, Satara.)"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Dr. U. R. More",
+        "job": "Convenors",
+        "description": "(Vice Principal, DIET, Satara.)"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Prof. J. B. Jagtap",
+        "job": "Convenors",
+        "description": "(Vice Principal, DIET (Diploma), Satara.)"
+      }
+    ],
+
+    "Coordinators": [
+      {
+        "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Dr. Sajeed S. Mulla",
+        "job": "Coordinators",
+        "description": "(Associate Professor, E&TC)"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "name": "Prof. Vijay R. Mane",
+        "job": "Coordinators",
+        "description": "(Assistant Professor, Civil and Environmental Engineering.)"
+      }
+    ]
+  }
+,
   "Contact": {
     "address": "Baner, Pune, Maharashtra, India",
     "phone": "+91 8419871919",
@@ -298,26 +624,38 @@
     "twitter": "#",
     "youtube": "#"
   },
-  "Features": [
+ "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Power Evacuation Mastery",
-      "text": "We specialize in efficient power evacuation for Solar and Wind projects, with expertise in Special Energy Metering at both Generation and Plant End."
+      "title": "Civil and Environmental Engineering",
+      "text": "1. Smart Infrastructure Development: Applications of IoT for Sustainable Civil Engineering. 2. Green Energy Solutions for Sustainable Construction and Infrastructure. 3. Innovative Waste Management Strategies for Sustainable Urban Development. 4. AI and Machine Learning Applications for Sustainable Civil Engineering Practices. 5. Integrating Sustainable Development Goals (SDGs) into Civil Engineering Design and Practice."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "EPC Project",
-      "text": "Our robust capabilities extend to transmission line EPC projects, from Generation End to Substation End, including bay design and comprehensive EPC services."
+      "title": "Computer Science and Engineering",
+      "text": "1. AI and Machine Learning for Driving Sustainable Development and Innovation. 2. Ethical Hacking for Strengthening Digital Security and Sustainable Cyber Ecosystems. 3. Data Science for Informed Decision-Making and Sustainable Resource Management. 4. Advancing Cybersecurity for Resilient and Sustainable Digital Infrastructure. 5. Blockchain Technology for Transparency, Trust, and Sustainable Digital Transformation. 6. Exploring the Limitations of Artificial Intelligence in Achieving Sustainable Development Goals."
     },
     {
       "icon": "fa fa-group",
-      "title": "Right-of-Way Expertise",
-      "text": "We're experts at handling the complex process of securing land and permissions needed for energy projects. This makes Green En a reliable choice for managing power evacuation in renewable energy."
+      "title": "Mechanical and Mechatronics Engineering",
+      "text": "1. Sustainable Industrial Automation for Smart Manufacturing and Resource Efficiency. 2. Robotics for Sustainable Production and Industrial Innovation. 3. Advances in Metallurgy and Nanotechnology for Sustainable Materials Development. 4. AI and Machine Learning Applications for Intelligent and Sustainable Mechatronic Systems. 5. Additive Manufacturing Technologies for Sustainable Design and Production."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Utility-Scale Projects",
-      "text": "From the ground up, we design, build, and manage extensive grid-scale solar, wind, and hybrid projects across India. Our projects provide renewable energy to both state and central government utilities under long-term contracts, offering up to 25 years of stability and reliability."
+      "title": "Electrical Engineering",
+      "text": "1. Innovations in Renewable and Sustainable Energy Technologies for a Greener Future. 2. Smart and Resilient Power Systems for Sustainable Energy Management. 3. AI and Machine Learning Applications for Intelligent Electrical Systems. 4. Advanced Control Engineering for Energy Efficiency and Sustainable Automation. 5. Integrating Electrical Engineering Innovations to Achieve Sustainable Development Goals."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Electronics and Telecommunication Engineering",
+      "text": "1. VLSI, Embedded and IoT Technologies for Energy-Efficient and Sustainable Electronic Systems. 2. Next-Generation Communication Systems for Inclusive and Sustainable Connectivity. 3. Sustainable Computer Networking and Smart Connectivity Solutions. 4. Digital Signal and Image Processing for Smart and Sustainable Applications. 5. AI and Machine Learning Applications in Biomedical Engineering for Sustainable Healthcare. 6. Innovations in Antenna Design and Wave Propagation for Sustainable Communication Networks."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Science",
+      "text": "1. Sustainable Materials Science and Nanotechnology for Green Innovations. 2. Molecular and Optical Physics for Renewable Energy and Advanced Sensing. 3. Quantum Materials for Sustainable Energy and Smart Technologies. 4. Energy, Environment, and Climate-Responsive Technologies. 5. Physical Chemistry for Sustainable Processes and Green Solutions. 6. Biomolecular Science and Green Biotechnology for Sustainable Health and Environment. 7. Environmental Physics and Chemistry for Climate Resilience. 8. Interdisciplinary Approaches in Bio-Nanoscience for Sustainable Development."
     }
   ]
 }
+
+

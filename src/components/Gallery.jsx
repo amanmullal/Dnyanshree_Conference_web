@@ -15,7 +15,6 @@ export const Gallery = (props) => {
   // Enhanced gallery data with categories and effects
   const galleryData = props.data
     ? props.data.map((item, index) => {
-
         return {
           ...item,
           id: index,
@@ -23,11 +22,16 @@ export const Gallery = (props) => {
           smallImage: item.smallImage,
           largeImage: item.largeImage,
           category: [
-            "Solar Power",
-            "Wind Energy",
-            "Electrical",
-            "Infrastructure",
-          ][index % 4],
+            "Antiques Trading",
+            "Bauxite Mining & Trading",
+            "Power Transmission EPC",
+            "Control Panel Manufacturing",
+            "NDT - Radiography Testing",
+            "NDT - Ultrasonic Testing",
+            "Minerals & Gemstones",
+            "Energy Metering Solutions",
+            "Electrical EPC Projects",
+          ][index],
           views: Math.floor(Math.random() * 1000) + 100,
           likes: Math.floor(Math.random() * 50) + 5,
           color: [
@@ -118,7 +122,7 @@ export const Gallery = (props) => {
 
         {/* Gallery Grid */}
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-16"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 mb-16"
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.5 }}

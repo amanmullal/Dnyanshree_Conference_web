@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {
   MapPin,
-  Phone,
+  User,
   Mail,
   Facebook,
   Youtube,
@@ -78,7 +78,6 @@ export const Contact = (props) => {
       clearState();
       setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
-
       // Handle specific EmailJS errors
       if (error.text?.includes("insufficient authentication scopes")) {
         console.error("Gmail authentication issue - need to re-authorize");
@@ -211,7 +210,7 @@ export const Contact = (props) => {
           >
             {/* Contact Form */}
             <motion.div variants={itemVariants}>
-              <div className="glass-effect rounded-3xl p-8 border-white/10">
+              <div className="glass-effect rounded-3xl p-8 border-white/10 h-full">
                 <h3 className="text-2xl font-bold mb-8 text-center">
                   Send us a message
                 </h3>
@@ -313,7 +312,7 @@ export const Contact = (props) => {
 
             {/* Contact Info */}
             <motion.div variants={itemVariants} className="space-y-8">
-              <div className="glass-effect rounded-3xl p-8 border-white/10">
+              <div className="glass-effect rounded-3xl p-8 border-white/10 h-full">
                 <h3 className="text-2xl font-bold text-white mb-8 text-center">
                   Contact Information
                 </h3>
@@ -327,17 +326,28 @@ export const Contact = (props) => {
                       color: "text-blue-300",
                     },
                     {
-                      icon: Phone,
-                      label: "Phone",
-                      value: props.data?.phone || "Loading phone...",
-                      color: "text-purple-300",
-                    },
-                    {
                       icon: Mail,
                       label: "Email",
                       value: props.data?.email || "Loading email...",
                       color: "text-blue-300",
                     },
+                    {
+                      icon: Mail,
+                      label: "Number",
+                      value: props.data?.number || "Loading number...",
+                      color: "text-blue-300",
+                    },
+                    // {
+                    //   icon: User,
+                    //   label: "Team",
+                    //   value: Array.isArray(props.team)
+                    //     ? props.team.map((member) => ({
+                    //         job: member.job,
+                    //         name: member.name,
+                    //       }))
+                    //     : [],
+                    //   color: "text-purple-300",
+                    // },
                   ].map((item, index) => (
                     <motion.div
                       key={index}
@@ -352,14 +362,24 @@ export const Contact = (props) => {
                         <p className="font-semibold text-white mb-1">
                           {item.label}
                         </p>
-                        <p className="text-blue-100">{item.value}</p>
+
+                        {Array.isArray(item.value) ? (
+                          item.value.map((member, i) => (
+                            <p key={i} className="text-blue-100">
+                              <span className="font-bold">{member.job}:</span>{" "}
+                              {member.name}
+                            </p>
+                          ))
+                        ) : (
+                          <p className="text-blue-100">{item.value}</p>
+                        )}
                       </div>
                     </motion.div>
                   ))}
                 </div>
 
                 {/* Social Links */}
-                <div className="mt-8 pt-8 border-t border-white/10">
+                {/* <div className="mt-8 pt-8 border-t border-white/10">
                   <p className="text-center text-blue-100 mb-6">
                     Follow us on social media
                   </p>
@@ -373,7 +393,7 @@ export const Contact = (props) => {
                       {
                         icon: XIcon,
                         href: props.data?.twitter,
-                        color: "hover:bg-blue-400",
+                        color: "hover:bg-black/100",
                       },
                       {
                         icon: Youtube,
@@ -392,7 +412,7 @@ export const Contact = (props) => {
                       </motion.a>
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           </motion.div>

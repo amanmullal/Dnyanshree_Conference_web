@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import magnoxLogo from "../assets/magnox_energy_logo.png";
+import dnyanshree from "../assets/dnyanshree_logo.png";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,13 +12,20 @@ export const Navbar = () => {
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const navItems = [
-    { name: "Features", id: "features", type: "section" },
     { name: "About", id: "about", type: "section" },
-    { name: "Services", id: "services-page", type: "route", path: "/services" },
-    { name: "Portfolio", id: "portfolio", type: "section" },
-    // { name: "Testimonials", id: "testimonials", type: "section" },
-    // { name: "Team", id: "team", type: "section" },
-    { name: "Contact", id: "contact", type: "section" },
+    { name: "Committee", id: "features", type: "section" },
+    // {
+    //   name: "Committee",
+    //   id: "services-page",
+    //   type: "route",
+    //   path: "/services",
+    // },
+    { name: "Authors Guidelines", id: "portfolio", type: "section" },
+    { name: "Program", id: "testimonials", type: "section" },
+    { name: "Registration", id: "team", type: "section" },
+    { name: "Venue/Travel", id: "contact", type: "section" },
+    { name: "Awards", id: "features", type: "section" },
+    { name: "Contact us", id: "contact", type: "section" },
   ];
 
   useEffect(() => {
@@ -157,9 +164,9 @@ export const Navbar = () => {
           >
             <Link to="/" className="flex items-center">
               <img
-                src={magnoxLogo}
+                src={dnyanshree}
                 alt="Magnox Energy Solutions"
-                className="h-16 w-auto"
+                className="h-12 w-auto"
               />
             </Link>
           </motion.div>

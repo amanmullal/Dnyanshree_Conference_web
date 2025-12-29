@@ -10,6 +10,15 @@ import {
   PieChart,
   ChevronLeft,
   ChevronRight,
+  Landmark,
+  Gem,
+  Cog,
+  Ship,
+  Boxes,
+  SearchCheck,
+  Atom,
+  AlertTriangle,
+  Sliders,
 } from "lucide-react";
 
 export const Services = (props) => {
@@ -93,12 +102,18 @@ export const Services = (props) => {
 
   // Dynamic icon mapping based on service names and content
   const iconMap = {
-    0: Users, // Consultancy - represents consulting/advisory
-    1: Zap, // Renewable Energy - represents energy/power
-    2: Settings, // Control Panels - represents technical controls/engineering
-    3: FileCheck, // SEM & OA Services - represents documentation/approval processes
-    4: Factory, // Industrial Electrical Turnkey Projects - represents industrial/manufacturing
-    5: PieChart, // Keep existing for the last service
+    0: Users, // Consultancy
+    1: Zap, // Renewable Energy
+    2: Settings, // Control Panels
+    3: FileCheck, // SEM & OA Services
+    4: Factory, // Industrial Electrical Turnkey Projects
+    5: PieChart, // Consectetur adipiscing (existing demo service)
+    6: Landmark, // Super Antiques (heritage/antique feel)
+    7: Gem, // Precious Stones
+    8: Cog, // Mining Energy Solutions (machines & heavy engineering)
+    9: Ship, // Iron Ore Trading (global logistics/shipment)
+    10: Boxes, // Boxside Energy (bauxite/mineral blocks)
+    11: SearchCheck, // Radiographic Inspection (inspection/scanning)
   };
 
   const itemVariants = {

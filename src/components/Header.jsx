@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import heroVideo from "../assets/hero-video.mp4";
+import heroVideo from "../assets/dnyanshree_college.jpg";
 import introBg from "../assets/bg-img.png";
 
 export const Header = (props) => {
@@ -45,19 +45,13 @@ export const Header = (props) => {
   return (
     <header className="relative pt-20 overflow-hidden">
       {/* Optimized Video Background */}
+
       <div className="absolute inset-0">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
+        <img
+          src={heroVideo}
+          alt=""
           className="absolute inset-0 w-full h-full object-cover"
-          poster={introBg} // Updated to use imported asset
-        >
-          <source src={heroVideo} type="video/mp4" />
-          {/* Fallback for browsers that don't support video */}
-        </video>
+        />
 
         {/* Video overlay for better text readability */}
         <div className="absolute inset-0 bg-black/50"></div>
@@ -105,9 +99,15 @@ export const Header = (props) => {
           initial="hidden"
           animate="visible"
         >
+          <motion.p
+            variants={itemVariants}
+            className="text-xl md:text-2xl lg:text-3xl mb-8 leading-relaxed max-w-4xl mx-auto font-bold"
+          >
+            {props.data ? props.data.section : "Loading..."}
+          </motion.p>
           <motion.div variants={itemVariants}>
             <motion.h1
-              className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight will-change-transform"
+              className="text-5xl md:text-7xl lg:text-6xl font-bold mb-2 leading-tight will-change-transform"
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
@@ -129,6 +129,12 @@ export const Header = (props) => {
                 )}
               </span>
             </motion.h1>
+            <motion.p
+              variants={itemVariants}
+              className="text-xl md:text-2xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto font-light"
+            >
+              {props.data ? props.data.date : "Loading..."}
+            </motion.p>
           </motion.div>
 
           <motion.div
@@ -137,12 +143,24 @@ export const Header = (props) => {
           >
             <div className="w-32 h-1 bg-gradient-to-r from-transparent via-white to-transparent rounded-full"></div>
           </motion.div>
+          <motion.p
+            variants={itemVariants}
+            className="text-xl md:text-2xl lg:text-2xl mb-8 leading-relaxed max-w-4xl mx-auto font-light"
+          >
+            {props.data ? props.data.organisedBy : "Loading..."}
+          </motion.p>
 
           <motion.p
             variants={itemVariants}
-            className="text-xl md:text-2xl lg:text-3xl mb-12 leading-relaxed max-w-4xl mx-auto font-light"
+            className="text-xl md:text-2xl lg:text-3xl  leading-relaxed max-w-4xl mx-auto font-light"
           >
             {props.data ? props.data.paragraph : "Loading..."}
+          </motion.p>
+          <motion.p
+            variants={itemVariants}
+            className="text-xl md:text-2xl lg:text-3xl mb-8 leading-relaxed max-w-4xl mx-auto font-light"
+          >
+            {props.data ? props.data.collegeName : "Loading..."}
           </motion.p>
 
           <motion.div
@@ -176,7 +194,7 @@ export const Header = (props) => {
           </motion.div>
 
           {/* Scroll indicator */}
-          <motion.div
+          {/* <motion.div
             className="absolute bottom-8 left-1/2 transform -translate-x-1/2 will-change-transform"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -192,7 +210,7 @@ export const Header = (props) => {
               </span>
               <ChevronDown className="w-6 h-6" />
             </motion.div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </header>

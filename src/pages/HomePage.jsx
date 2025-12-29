@@ -9,6 +9,7 @@ import { Testimonials } from "../components/Testimonials";
 import { Team } from "../components/Team";
 import { Contact } from "../components/Contact";
 import JsonData from "../data/data.json";
+import StatsSection from "../components/stats/StatsSection";
 
 const HomePage = () => {
   const [landingPageData, setLandingPageData] = useState({});
@@ -27,11 +28,10 @@ const HomePage = () => {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      {/* <ElectricityNetworkEcosystem /> */}
       <Gallery data={landingPageData.Gallery} />
-      {/* <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
+      {/* <StatsSection /> */}
+      <Team data={landingPageData.Team} />
+      <Contact data={landingPageData.Contact} team={landingPageData.Team} />
     </>
   );
 };

@@ -15,7 +15,7 @@ L.Icon.Default.mergeOptions({
 });
 
 const SimpleMap = () => {
-  const baner = [18.559, 73.7868];
+  const baner = [17.6484, 73.9214];
 
   const redIcon = new Icon({
     iconUrl:
@@ -39,7 +39,7 @@ const SimpleMap = () => {
       >
         <MapContainer
           center={baner}
-          zoom={12}
+          zoom={14}
           scrollWheelZoom={false}
           className="h-96 w-full rounded-lg shadow-lg will-change-transform"
           attributionControl={true}
@@ -59,7 +59,8 @@ const SimpleMap = () => {
             <Popup>
               <div className="text-center">
                 <h3 className="font-semibold text-lg text-gray-800">
-                  Magnox Energy Solutions - Baner
+                  Dnyanshree Institute of Engineering and Technology, Satara,
+                  Maharashtra
                 </h3>
                 <div className="mt-2">
                   <a
