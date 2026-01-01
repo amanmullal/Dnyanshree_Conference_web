@@ -25,7 +25,7 @@ const ConditionalFooter = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Dnyanshree_Conference_web">
       <div className="App">
         <Navbar />
         <Routes>
