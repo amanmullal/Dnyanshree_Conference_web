@@ -1,5 +1,6 @@
 {
   "name": "magnox-energy-web",
+  "homepage": "https://amanmullal.github.io/Dnyanshree_Conference_web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage"
@@ -17,6 +20,7 @@
     "@fortawesome/fontawesome-free": "^7.1.0",
     "@headlessui/react": "^2.2.9",
     "framer-motion": "^12.23.22",
+    "gh-pages": "^6.3.0",
     "i": "^0.3.7",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.544.0",
