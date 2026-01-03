@@ -72,8 +72,9 @@
 "Services": [
   {
     "icon": "fa fa-wordpress",
-    "name": "Author Template",
-    "text": "Click the button below to download the author template and prepare your paper."
+    "name": "Paper Template",
+    "text": "Click the button below to download the paper template and prepare your paper.",
+    "link":"https://docs.google.com/document/d/1DmUhOU-pLotBG7vjmSMJ8AHpbq0cv7FB/edit?usp=sharing&ouid=105352075616568402942&rtpof=true&sd=true"
 
 
   },
@@ -86,7 +87,8 @@
   {
     "icon": "fa fa-cloud-download",
     "name": "Paper Submission",
-    "text": "Click the button below to submit your paper once it’s ready."
+    "text": "Click the button below to submit your paper once it’s ready.",
+    "link":""
   }
   
 ],
