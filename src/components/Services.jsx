@@ -2,23 +2,12 @@ import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import {
-  Users,
-  Zap,
-  Settings,
-  FileCheck,
-  Factory,
+  FileSearch,
+  BookType,
+  FileText,
   PieChart,
   ChevronLeft,
   ChevronRight,
-  Landmark,
-  Gem,
-  Cog,
-  Ship,
-  Boxes,
-  SearchCheck,
-  Atom,
-  AlertTriangle,
-  Sliders,
 } from "lucide-react";
 
 export const Services = (props) => {
@@ -102,18 +91,9 @@ export const Services = (props) => {
 
   // Dynamic icon mapping based on service names and content
   const iconMap = {
-    0: Users, // Consultancy
-    1: Zap, // Renewable Energy
-    2: Settings, // Control Panels
-    3: FileCheck, // SEM & OA Services
-    4: Factory, // Industrial Electrical Turnkey Projects
-    5: PieChart, // Consectetur adipiscing (existing demo service)
-    6: Landmark, // Super Antiques (heritage/antique feel)
-    7: Gem, // Precious Stones
-    8: Cog, // Mining Energy Solutions (machines & heavy engineering)
-    9: Ship, // Iron Ore Trading (global logistics/shipment)
-    10: Boxes, // Boxside Energy (bauxite/mineral blocks)
-    11: SearchCheck, // Radiographic Inspection (inspection/scanning)
+    0: BookType, // Consultancy
+    1: FileText, // Renewable Energy
+    2: FileSearch, // Control Panels
   };
 
   const itemVariants = {
@@ -154,17 +134,15 @@ export const Services = (props) => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">
-            Our{" "}
+            Authors{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">
-              Services
+              Guidelines
             </span>
           </h2>
           <div className="w-20 md:w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-4 md:mb-6 rounded-full"></div>
           <p className="text-lg md:text-xl text-blue-100 max-w-6xl mx-auto leading-relaxed px-4">
-            <strong>Magnox Energy Solutions LLP</strong> delivers a
-            comprehensive range of services for wind and solar projects, from
-            efficient power evacuation to seamless regulatory compliance.
-            Discover how our expertise can drive your renewable energy success.
+            <strong>Authors</strong> are requested to strictly follow the
+            manuscript writing instructions outlined below.
           </p>
         </motion.div>
 
@@ -231,102 +209,113 @@ export const Services = (props) => {
                     >
                       <div className="relative h-full">
                         {/* Card background - Prevent Border Clipping */}
-                        <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-[40px_10px] p-6 md:p-10 h-full group-hover:border-white/30 transition-all duration-500 min-h-[360px] md:min-h-[400px] mb-4 mx-1">
+                        <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-[40px_10px] p-6 md:p-10 h-full group-hover:border-white/30 transition-all duration-500 min-h-[360px] md:min-h-[400px] mb-4 mx-1 flex flex-col justify-between">
                           {/* Background glow effect */}
-                          <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent rounded-[40px_10px] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-
-                          {/* Icon container with working animations */}
-                          <div className="relative mb-6 md:mb-8 flex justify-center">
-                            <motion.div
-                              className="relative"
-                              animate={{
-                                y: [0, -8, 0],
-                                rotate: [0, 2, -2, 0],
-                              }}
-                              transition={{
-                                duration: 3 + index * 0.5,
-                                repeat: Infinity,
-                                ease: "easeInOut",
-                              }}
-                              whileHover={{
-                                scale: 1.1,
-                                rotate: [0, -5, 5, 0],
-                                transition: { duration: 0.5 },
-                              }}
-                            >
-                              {/* Main icon container */}
+                          <div>
+                            {/* Icon container with working animations */}
+                            <div className="relative mb-6 md:mb-8 flex justify-center">
                               <motion.div
-                                className="w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl md:rounded-2xl flex items-center justify-center text-white shadow-2xl relative overflow-hidden"
+                                className="relative"
                                 animate={{
-                                  boxShadow: [
-                                    "0 0 20px rgba(59, 130, 246, 0.4)",
-                                    "0 0 30px rgba(147, 51, 234, 0.5)",
-                                    "0 0 20px rgba(59, 130, 246, 0.4)",
-                                  ],
+                                  y: [0, -8, 0],
+                                  rotate: [0, 2, -2, 0],
                                 }}
                                 transition={{
-                                  duration: 2 + index * 0.3,
+                                  duration: 3 + index * 0.5,
                                   repeat: Infinity,
                                   ease: "easeInOut",
+                                }}
+                                whileHover={{
+                                  scale: 1.1,
+                                  rotate: [0, -5, 5, 0],
+                                  transition: { duration: 0.5 },
                                 }}
                               >
-                                {/* Shimmer effect */}
+                                {/* Main icon container */}
                                 <motion.div
-                                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+                                  className="w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl md:rounded-2xl flex items-center justify-center text-white shadow-2xl relative overflow-hidden"
                                   animate={{
-                                    x: ["-100%", "200%"],
+                                    boxShadow: [
+                                      "0 0 20px rgba(59, 130, 246, 0.4)",
+                                      "0 0 30px rgba(147, 51, 234, 0.5)",
+                                      "0 0 20px rgba(59, 130, 246, 0.4)",
+                                    ],
                                   }}
                                   transition={{
-                                    duration: 3,
+                                    duration: 2 + index * 0.3,
                                     repeat: Infinity,
-                                    ease: "linear",
-                                    delay: index * 0.5,
-                                  }}
-                                />
-
-                                {/* Icon with rotation */}
-                                <motion.div
-                                  animate={{
-                                    rotate: [0, 360],
-                                  }}
-                                  transition={{
-                                    duration: 15 + index * 2,
-                                    repeat: Infinity,
-                                    ease: "linear",
+                                    ease: "easeInOut",
                                   }}
                                 >
-                                  <IconComponent className="w-10 h-10 md:w-12 md:h-12 relative z-10" />
+                                  {/* Shimmer effect */}
+                                  <motion.div
+                                    className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12"
+                                    animate={{
+                                      x: ["-100%", "200%"],
+                                    }}
+                                    transition={{
+                                      duration: 3,
+                                      repeat: Infinity,
+                                      ease: "linear",
+                                      delay: index * 0.5,
+                                    }}
+                                  />
+
+                                  {/* Icon with rotation */}
+                                  <motion.div
+                                    animate={{
+                                      rotate: [0, 360],
+                                    }}
+                                    transition={{
+                                      duration: 15 + index * 2,
+                                      repeat: Infinity,
+                                      ease: "linear",
+                                    }}
+                                  >
+                                    <IconComponent className="w-10 h-10 md:w-12 md:h-12 relative z-10" />
+                                  </motion.div>
                                 </motion.div>
+
+                                {/* Pulsing ring */}
+                                <motion.div
+                                  className="absolute inset-0 w-20 h-20 md:w-24 md:h-24 border-2 border-blue-400/50 rounded-xl md:rounded-2xl"
+                                  animate={{
+                                    scale: [1, 1.15, 1],
+                                    opacity: [0.7, 0.3, 0.7],
+                                  }}
+                                  transition={{
+                                    duration: 2 + index * 0.2,
+                                    repeat: Infinity,
+                                    ease: "easeInOut",
+                                  }}
+                                />
                               </motion.div>
+                            </div>
 
-                              {/* Pulsing ring */}
-                              <motion.div
-                                className="absolute inset-0 w-20 h-20 md:w-24 md:h-24 border-2 border-blue-400/50 rounded-xl md:rounded-2xl"
-                                animate={{
-                                  scale: [1, 1.15, 1],
-                                  opacity: [0.7, 0.3, 0.7],
-                                }}
-                                transition={{
-                                  duration: 2 + index * 0.2,
-                                  repeat: Infinity,
-                                  ease: "easeInOut",
-                                }}
-                              />
-                            </motion.div>
+                            {/* Content - Mobile Optimized */}
+                            <div className="relative text-center">
+                              <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 group-hover:text-blue-300 transition-colors duration-300">
+                                {service.name}
+                              </h3>
+                              <p className="text-sm md:text-base text-blue-100/90 leading-relaxed group-hover:text-white/90 transition-colors duration-300 line-clamp-4">
+                                {service.text}
+                              </p>
+                            </div>
                           </div>
 
-                          {/* Content - Mobile Optimized */}
-                          <div className="relative text-center">
-                            <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 group-hover:text-blue-300 transition-colors duration-300">
-                              {service.name}
-                            </h3>
-                            <p className="text-sm md:text-base text-blue-100/90 leading-relaxed group-hover:text-white/90 transition-colors duration-300 line-clamp-4">
-                              {service.text}
-                            </p>
-                          </div>
-
-                          {/* Bottom accent */}
-                          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full group-hover:w-16 md:group-hover:w-20 transition-all duration-500"></div>
+                          <motion.button
+                            type="submit"
+                            className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-2xl transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed mt-10"
+                          >
+                            <a href={service.link}>
+                              {" "}
+                              <span>
+                                {service.name === "Paper Submission"
+                                  ? "SUBMIT"
+                                  : "OPEN"}
+                              </span>
+                            </a>
+                          </motion.button>
                         </div>
                       </div>
                     </motion.div>

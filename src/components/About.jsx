@@ -165,7 +165,7 @@ export const About = (props) => {
                 >
                   <div className="text-center">
                     <div className="text-3xl font-bold text-primary-600 mb-1">
-                      5+
+                      12+
                     </div>
                     <div className="text-sm text-gray-600">
                       Years Experience

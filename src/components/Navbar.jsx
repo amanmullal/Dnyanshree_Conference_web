@@ -13,18 +13,18 @@ export const Navbar = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const navItems = [
     { name: "About", id: "about", type: "section" },
-    { name: "Committee", id: "features", type: "section" },
+    { name: "Committee", id: "committee", type: "section" },
     // {
     //   name: "Committee",
     //   id: "services-page",
     //   type: "route",
     //   path: "/services",
     // },
-    { name: "Authors Guidelines", id: "portfolio", type: "section" },
-    { name: "Program", id: "testimonials", type: "section" },
-    { name: "Registration", id: "team", type: "section" },
-    { name: "Venue/Travel", id: "contact", type: "section" },
-    { name: "Awards", id: "features", type: "section" },
+    { name: "Authors Guidelines", id: "authors", type: "section" },
+    { name: "Program", id: "Program", type: "section" },
+    { name: "Registration", id: "registration", type: "section" },
+    { name: "Venue/Travel", id: "venue", type: "section" },
+    { name: "Awards", id: "awards", type: "section" },
     { name: "Contact us", id: "contact", type: "section" },
   ];
 

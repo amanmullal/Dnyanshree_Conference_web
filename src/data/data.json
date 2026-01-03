@@ -72,79 +72,23 @@
 "Services": [
   {
     "icon": "fa fa-wordpress",
-    "name": "Consultancy",
-    "text": "Need expert advice on your electrical projects? Look no further. At Green En Solutions, we provide consultancy services for a wide range of projects, from residential house wiring to high-voltage transmission and substations. Our experienced team ensures that every project is carefully planned and executed to meet the highest standards."
+    "name": "Author Template",
+    "text": "Click the button below to download the author template and prepare your paper."
+
+
   },
   {
     "icon": "fa fa-cart-arrow-down",
-    "name": "Renewable Energy",
-    "text": "Renewable energy is at the heart of what we do. We handle every aspect of renewable energy projects, from initial feasibility studies to final commissioning. We offer a variety of renewable energy solutions, each designed to harness the power of different technologies to meet your specific needs."
+    "name": "Submission Guideline",
+    "text": "Click the button below to download the guidelines and understand the submission process.",
+    "link":"https://docs.google.com/document/d/1BttZ3a6DlI3e73NHHhfCYOcc13xYCBy5/edit?usp=drive_link&ouid=105352075616568402942&rtpof=true&sd=true"
   },
   {
     "icon": "fa fa-cloud-download",
-    "name": "Control Panels",
-    "text": "We specialize in control panels, providing everything from design and supply to installation, testing, and commissioning. Our dedicated team also offers ongoing maintenance to ensure your control panels operate efficiently and reliably."
-  },
-  {
-    "icon": "fa fa-language",
-    "name": "SEM & OA Services",
-    "text": "Navigating the requirements for Special Energy Meters (SEM) and Open Access (OA) services can be complex, but we're here to help. We provide a seamless, one-stop solution for companies needing SEM and OA services, handling everything from application to approval."
-  },
-  {
-    "icon": "fa fa-plane",
-    "name": "Industrial Electrical Turnkey Projects",
-    "text": "Our expertise extends to comprehensive industrial electrical turnkey projects. We provide end-to-end solutions, ensuring efficiency, safety, and reliability every step of the way."
-  },
-  {
-    "icon": "fa fa-pie-chart",
-    "name": "Consectetur adipiscing",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-  },
-  {
-    "icon": "fa fa-university",
-    "name": "Super Antiques",
-    "text": "We deal in rare Super Antiques and Precious Metals known for their timeless design, aesthetic beauty, and unique craftsmanship. Our collection includes ancient artifacts, handcrafted vessels, and precious metal masterpieces that hold cultural and historical value."
-  },
-  {
-    "icon": "fa fa-diamond",
-    "name": "Precious Stones",
-    "text": "Explore our exclusive range of precious stones including Diamonds, Rubies, Sapphires, Emeralds, Catseyes, and Alexandrite. Each gemstone carries unique brilliance, clarity, and symbolic meaning, making them perfect for personal collections and investment."
-  },
-  {
-    "icon": "fa fa-industry",
-    "name": "Mining Energy Solutions",
-    "text": "We deliver high-capacity and reliable power solutions for mining operations, ensuring continuous performance in remote and demanding environments."
-  },
-  {
-    "icon": "fa fa-ship",
-    "name": "Iron Ore Trading",
-    "text": "We connect global suppliers and buyers for seamless iron ore trading, offering quality grading, logistics support, and transparent documentation."
-  },
-  {
-    "icon": "fa fa-cubes",
-    "name": "Boxside Energy",
-    "text": "We provide sustainable and energy-efficient solutions for bauxite mining and processing, enabling cost-effective and eco-friendly operations."
-  },
-  {
-    "icon": "fa fa-search",
-    "name": "Radiographic Inspection",
-    "text": "Advanced industrial radiography services for welds, pipelines, pressure vessels, and structures, ensuring internal defect detection with high precision."
-  },
-  {
-    "icon": "fa fa-atom",
-    "name": "Advanced Modular Reactor",
-    "text": "Next-generation compact nuclear reactors with modular deployment, passive safety systems, and efficient cooling technologies for safer nuclear energy."
-  },
-  {
-    "icon": "fa fa-exclamation-triangle",
-    "name": "Chernobyl",
-    "text": "Case study and analysis of the Chernobyl nuclear accident to understand reactor failures, radiation impact, and global safety improvements."
-  },
-  {
-    "icon": "fa fa-Sliders",
-    "name": "Control Rods",
-    "text": "Specialized neutron-absorbing control rods for regulating nuclear fission, ensuring stable operation and preventing reactor overheating."
+    "name": "Paper Submission",
+    "text": "Click the button below to submit your paper once it’s ready."
   }
+  
 ],
 
   "EnergySolutions": [

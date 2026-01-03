@@ -28,7 +28,7 @@ const HomePage = () => {
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
       {/* <StatsSection /> */}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} team={landingPageData.Team} />

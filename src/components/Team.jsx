@@ -141,7 +141,7 @@ export const Team = (props) => {
 
                       {/* Content */}
                       <div className="p-8 text-center relative">
-                        <div class="border-b-2 border-gray">
+                        <div className="border-b-2 border-gray">
                           <p className="text-primary-500 font-semibold mb-4 uppercase tracking-wide text-sm">
                             {member.job}
                           </p>
@@ -262,7 +262,7 @@ export const Team = (props) => {
 
                       {/* Content */}
                       <div className="p-8 text-center relative">
-                        <div class="border-b-2 border-gray">
+                        <div className="border-b-2 border-gray">
                           <p className="text-primary-500 font-semibold mb-4 uppercase tracking-wide text-sm">
                             {member.job}
                           </p>
@@ -383,7 +383,7 @@ export const Team = (props) => {
 
                       {/* Content */}
                       <div className="p-8 text-center relative">
-                        <div class="border-b-2 border-gray">
+                        <div className="border-b-2 border-gray">
                           <p className="text-primary-500 font-semibold mb-4 uppercase tracking-wide text-sm">
                             {member.job}
                           </p>
@@ -504,7 +504,7 @@ export const Team = (props) => {
 
                       {/* Content */}
                       <div className="p-8 text-center relative">
-                        <div class="border-b-2 border-gray">
+                        <div className="border-b-2 border-gray">
                           <p className="text-primary-500 font-semibold mb-4 uppercase tracking-wide text-sm">
                             {member.job}
                           </p>
