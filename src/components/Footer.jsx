@@ -12,7 +12,7 @@ const Footer = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            &copy; 2025 Magnox Energy Solutions LLP.
+            &copy; 2026 DIET, Satara, Maharashtra.
           </motion.p>
 
           {/* Scroll to top button */}

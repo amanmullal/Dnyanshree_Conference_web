@@ -4,6 +4,8 @@ import { useInView } from "react-intersection-observer";
 import { CheckCircle, ArrowRight } from "lucide-react";
 import bgImage from "../assets/dnyanshree_college2.png";
 import pride from "../assets/dnyanshree_pride.jpg";
+import students from "../assets/dnyanshree_students.jpg";
+import lab from "../assets/dnyashree_lab.jpg";
 
 export const About = (props) => {
   const [ref, inView] = useInView({
@@ -177,6 +179,91 @@ export const About = (props) => {
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
               </div>
             </motion.div>
+            <motion.div className="relative " variants={leftVariants}>
+              <div className="relative">
+                {/* Main image */}
+                <motion.div
+                  className="relative overflow-hidden rounded-3xl shadow-2xl"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <img
+                    src={students}
+                    className="w-full h-auto object-cover"
+                    alt="About Magnox Energy Solutions"
+                  />
+                  {/* Image overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent"></div>
+                </motion.div>
+
+                {/* Floating card */}
+                <motion.div
+                  className="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-600 mb-1">
+                     1000+
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      Placements
+                    </div>
+                  </div>
+                </motion.div>
+
+                {/* Decorative elements */}
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
+              </div>
+            </motion.div>
+            <motion.div className="relative" variants={leftVariants}>
+              <div className="relative">
+                {/* Main image */}
+                <motion.div
+                  className="relative overflow-hidden rounded-3xl shadow-2xl"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <img
+                    src={lab}
+                    className="w-full h-auto object-cover"
+                    alt="About Magnox Energy Solutions"
+                  />
+                  {/* Image overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent"></div>
+                </motion.div>
+
+                {/* Floating card */}
+                <motion.div
+                  className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl border border-gray-100"
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-primary-600 mb-1">
+                    Center of Excellence
+                    </div>
+                    {/* <div className="text-sm text-gray-600">
+                      Center of Excellence
+                    </div> */}
+                  </div>
+                </motion.div>
+
+                {/* Decorative elements */}
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-accent-500/20 to-primary-500/20 rounded-full blur-xl"></div>
+              </div>
+            </motion.div>
+                  
           </div>
 
           {/* Content Section */}
@@ -186,7 +273,41 @@ export const About = (props) => {
                 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
                 whileHover={{ scale: 1.02 }}
               >
-                <span className="gradient-text">About Us</span>
+                <span className="gradient-text">About RWMCT</span>
+              </motion.h2>
+
+              <motion.p
+                className="text-xl text-gray-600 leading-relaxed mb-8 text-justify"
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ delay: 0.6, duration: 0.8 }}
+              >
+                {props.data ? props.data.rwmct : "Loading our story..."}
+              </motion.p>
+            </div>
+            <div>
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
+                whileHover={{ scale: 1.02 }}
+              >
+                <span className="gradient-text">About Institute</span>
+              </motion.h2>
+
+              <motion.p
+                className="text-xl text-gray-600 leading-relaxed mb-8 text-justify"
+                initial={{ opacity: 0, y: 20 }}
+                animate={inView ? { opacity: 1, y: 0 } : {}}
+                transition={{ delay: 0.6, duration: 0.8 }}
+              >
+                {props.data ? props.data.college : "Loading our story..."}
+              </motion.p>
+            </div>
+            <div>
+              <motion.h2
+                className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"
+                whileHover={{ scale: 1.02 }}
+              >
+                <span className="gradient-text">About Conference</span>
               </motion.h2>
 
               <motion.p
@@ -266,24 +387,7 @@ export const About = (props) => {
             </motion.div>
 
             {/* CTA Button */}
-            <motion.div
-              className="pt-8"
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: 1.2, duration: 0.8 }}
-            >
-              <motion.a
-                href="#services"
-                className="btn-primary group"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Explore Our Services
-                <motion.div className="ml-2 group-hover:translate-x-1 transition-transform duration-300">
-                  <ArrowRight className="w-5 h-5" />
-                </motion.div>
-              </motion.a>
-            </motion.div>
+         
           </motion.div>
         </motion.div>
       </div>

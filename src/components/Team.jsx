@@ -44,7 +44,7 @@ export const Team = (props) => {
 
   return (
     <section
-      id="team"
+      id="committee"
       className="section-padding bg-white relative overflow-hidden"
       ref={ref}
     >

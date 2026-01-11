@@ -110,7 +110,7 @@ export const Services = (props) => {
 
   return (
     <section
-      id="services"
+      id="authors"
       className="section-padding bg-gradient-to-br from-blue-900 via-purple-900 to-blue-800 text-white relative overflow-hidden"
       ref={ref}
     >
@@ -307,7 +307,11 @@ export const Services = (props) => {
                             type="submit"
                             className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-2xl transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed mt-10"
                           >
-                            <a href={service.link}>
+                            <a
+                              href={service.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               {" "}
                               <span>
                                 {service.name === "Paper Submission"
@@ -355,7 +359,7 @@ export const Services = (props) => {
         </div>
 
         {/* Bottom CTA - Mobile Optimized */}
-        <motion.div
+        {/* <motion.div
           className="text-center mt-12 md:mt-20"
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -367,7 +371,7 @@ export const Services = (props) => {
           >
             See What Our Clients Say
           </a>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Custom scrollbar hiding styles */}

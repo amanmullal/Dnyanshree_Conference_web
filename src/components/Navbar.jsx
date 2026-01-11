@@ -14,12 +14,6 @@ export const Navbar = () => {
   const navItems = [
     { name: "About", id: "about", type: "section" },
     { name: "Committee", id: "committee", type: "section" },
-    // {
-    //   name: "Committee",
-    //   id: "services-page",
-    //   type: "route",
-    //   path: "/services",
-    // },
     { name: "Authors Guidelines", id: "authors", type: "section" },
     { name: "Program", id: "Program", type: "section" },
     { name: "Registration", id: "registration", type: "section" },
@@ -48,6 +42,7 @@ export const Navbar = () => {
         let current = "";
         for (let i = sections.length - 1; i >= 0; i--) {
           const section = sections[i];
+     
           if (section && section.offsetTop <= scrollPosition) {
             current = section.id;
             break;
@@ -137,12 +132,15 @@ export const Navbar = () => {
   }, [location.pathname, location.hash]);
 
   const isActiveItem = (item) => {
+
     if (item.type === "route") {
       return location.pathname === item.path;
     }
+          
     // Only highlight section links when on homepage
     return location.pathname === "/" && activeSection === item.id;
   };
+      console.log("fdfd", activeSection);
 
   return (
     <motion.nav
